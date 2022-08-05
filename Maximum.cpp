@@ -8,7 +8,7 @@ template<class T>
 T Maximum(T Arr[], int iSize)
 {
     int i = 0;
-    T Max = 0;
+    T Max = Arr[0];
 
     for(i = 0; i < iSize; i++)
     {
