@@ -16,19 +16,11 @@ T Multiply(T iNo1, T iNo2)
 
 int main()
 {
-    int iValue1 = 0;
-    int iValue2 = 0;
-    int iRet = 0;
+    int iRet = Multiply(50, 23);
+    cout<<"Multiplication is : "<<iRet<<endl;
 
-    cout<<"Enter first number : "<<endl;
-    cin>>iValue1;
-
-    cout<<"Enter second number : "<<endl;
-    cin>>iValue2;
-
-    iRet = Multiply(iValue1, iValue2);
-
-    cout<<"Multipliction is : "<<iRet<<endl;
+    int fRet = Multiply(36.25, 12.02);
+    cout<<"Multiplication is : "<<fRet<<endl;
 
     return 0;
 }
