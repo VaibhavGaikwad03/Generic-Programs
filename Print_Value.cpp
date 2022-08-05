@@ -1,5 +1,14 @@
 /*
 Write a generic program which accept one value and one number from user. print that value that number of times on screen.
+
+Input : 'M', 7
+Output : M  M   M   M   M   M   M
+
+Input : 11, 4
+Output : 11 11  11  11
+
+Input : 21.22, 8
+Output : 21.22  21.22   21.22   21.22   21.22   21.22   21.22   21.22
 */
 
 
