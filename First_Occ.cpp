@@ -2,7 +2,7 @@
 Write a generic program which accept N values and search the first occurence of any specific value.
 
 Input : 10 20 30 10 30 40 10 40 10
-Value to check frequency : 40
+Value to search : 40
 Output : 6
 */
 
