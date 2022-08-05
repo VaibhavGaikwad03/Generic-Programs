@@ -5,13 +5,13 @@ using namespace std;
 
 template<class T>
 
-T Multiply(T iNo1, T iNo2)
+T Multiply(T No1, T No2)
 {
-    T iAns;
+    T Ans;
 
-    iAns = iNo1 * iNo2;
+    Ans = iNo1 * No2;
 
-    return iAns;
+    return Ans;
 }
 
 int main()

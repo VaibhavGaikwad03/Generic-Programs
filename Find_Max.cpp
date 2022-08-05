@@ -5,24 +5,24 @@ using namespace std;
 
 template<class T>
 
-T Maximum(T iNo1, T iNo2, T iNo3)
+T Maximum(T No1, T No2, T No3)
 {
-    T iMax;
+    T Max;
 
-    if((iNo1 > iNo2) && (iNo1 > iNo3))
+    if((No1 > No2) && (No1 > No3))
     {
-        iMax = iNo1;
+        Max = No1;
     }
-    else if((iNo2 > iNo1) && (iNo2 > iNo3))
+    else if((No2 > No1) && (No2 > No3))
     {
-        iMax = iNo2;
+        Max = No2;
     }
-    else if((iNo3 > iNo1) && (iNo3 > iNo2))
+    else if((No3 > No1) && (No3 > No2))
     {
-        iMax = iNo3;
+        Max = No3;
     }
 
-    return iMax;
+    return Max;
 }
 
 int main()
